@@ -58,9 +58,10 @@ A complete web application template with user authentication features built with
 
 ### Installation
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
+1. Fork and clone the repository:
+   ```bash
+   # Fork on GitHub first, then clone your fork
+   git clone https://github.com/YOUR-USERNAME/CSC317Project-F25.git
    cd CSC317Project-F25
    ```
 

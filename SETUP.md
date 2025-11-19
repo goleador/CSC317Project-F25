@@ -71,8 +71,8 @@ PostgreSQL is the database used by this application to store user information.
 
 Option 1: Using Homebrew (recommended):
 ```bash
-brew install postgresql@15
-brew services start postgresql@15
+brew install postgresql@17
+brew services start postgresql@17
 ```
 
 Option 2: Using Postgres.app:
@@ -114,13 +114,15 @@ On macOS with Homebrew, you may need to use:
 createdb csc317_project
 ```
 
-## Step 3: Clone or Download the Template
+## Step 3: Fork and Clone the Template
 
-If you're using Git:
-```
-git clone <repository-url>
-cd CSC317Project-F25
-```
+1. **Fork the repository** on GitHub by clicking the "Fork" button in the top right corner
+
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/CSC317Project-F25.git
+   cd CSC317Project-F25
+   ```
 
 Alternatively, download the ZIP file of the project and extract it to a location of your choice.
 
@@ -226,7 +228,7 @@ git push -u origin main
    - **Database**: `csc317_project`
    - **User**: Leave as default
    - **Region**: Choose the closest to your users
-   - **PostgreSQL Version**: 15 or latest
+   - **PostgreSQL Version**: 17 (latest)
    - **Instance Type**: Free (for development)
 3. Click "Create Database"
 4. Wait for the database to be created

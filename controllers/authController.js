@@ -123,7 +123,8 @@ exports.postLogin = async (req, res, next) => {
       id: user.id,
       username: user.username,
       email: user.email,
-      hasProfileImage: user.has_profile_image
+      hasProfileImage: user.has_profile_image,
+      createdAt: user.created_at
     };
 
     // Save session explicitly to ensure it's stored

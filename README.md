@@ -159,8 +159,12 @@ Your project must follow this directory structure:
 
 ## Getting Started
 
-1. Fork this repository
-2. Clone your fork locally
+1. **Fork this repository** on GitHub (click the "Fork" button in the top right)
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/CSC317Project-F25.git
+   cd CSC317Project-F25
+   ```
 3. Follow the instructions in [SETUP.md](SETUP.md) to set up your development environment
 4. Start building your project features!
 
